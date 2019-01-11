@@ -1,4 +1,5 @@
 const dev = {
+  STRIPE_KEY: "pk_test_wuL4gFKYLOLoI4vlJaaOQZA3",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-dev-attachmentsbucket-wkfscvsh4yx3"
@@ -13,10 +14,11 @@ const dev = {
     APP_CLIENT_ID: "2a2t1bl39udi3ho23m8m1ug52r",
     IDENTITY_POOL_ID: "us-east-1:742281b0-4398-4973-a3d7-0cd168a4e6d2"
   }
-  STRIPE_KEY: "pk_test_wuL4gFKYLOLoI4vlJaaOQZA3",
+
 };
 
 const prod = {
+  STRIPE_KEY: "pk_test_wuL4gFKYLOLoI4vlJaaOQZA3",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-prod-attachmentsbucket-ipnhi5ymld4q"
@@ -31,7 +33,7 @@ const prod = {
     APP_CLIENT_ID: "7pfioiumjvqsvop247knjhs1rc",
     IDENTITY_POOL_ID: "us-east-1:b6ec76cf-c049-414b-b849-4e1addbaa9dd"
   }
-  STRIPE_KEY: "pk_test_wuL4gFKYLOLoI4vlJaaOQZA3",
+
 };
 
 // Default to dev if not set
